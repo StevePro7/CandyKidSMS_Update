@@ -86,7 +86,7 @@ void engine_hack_manager_invert()
 	// These need offset of one to differentiate from SRAM values.
 	//ho->hack_object_trees_type = 1 + 1;
 	//ho->hack_object_exits_type = 0 + 1;
-	//ho->hack_object_difficulty = 1 + 1;
+	ho->hack_object_difficulty = 1 + 1;
 	ho->hack_object_pace_speed = 1 + 1;
 
 
@@ -161,8 +161,8 @@ void engine_hack_manager_invert()
 
 
 	// TODO delete this hard coded!!
-	st->state_object_world_data = 0;
-	st->state_object_round_data = 0;
+	st->state_object_world_data = 2;
+	st->state_object_round_data = 2;
 
 	//st->state_object_localcheat = 1;
 	// TODO delete this hard coded!!
