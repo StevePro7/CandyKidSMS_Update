@@ -9,7 +9,7 @@ set /a _started=_hours*60*60*100+_min*60*100+_sec*100+_cs
 
 :: Compile
 cd banks
-sdcc -c --no-std-crt0 -mz80 --Werror --opt-code-size --constseg BANK15 fixedbank.c
+::sdcc -c --no-std-crt0 -mz80 --Werror --opt-code-size --constseg BANK15 fixedbank.c
 cd ..
 
 
@@ -34,7 +34,7 @@ cd engine
 ::sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 function_manager.c
 ::sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 gamer_manager.c
 ::::sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 global_manager.c
-::sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 hack_manager.c
+sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 hack_manager.c
 ::sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 input_manager.c
 ::sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 level_manager.c
 ::sdcc -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 locale_manager.c
@@ -94,7 +94,7 @@ cd ..
 
 
 :: echo Build main
-::sdcc -c -mz80 --opt-code-size --peep-file peep-rules.txt --std-c99 main.c
+sdcc -c -mz80 --opt-code-size --peep-file peep-rules.txt --std-c99 main.c
 
 
 :: Time build -END-
