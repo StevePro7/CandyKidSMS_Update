@@ -161,7 +161,7 @@ static void next_level()
 	if( fight_type_enemy == st->state_object_fight_type )
 	{
 		boss1 = ( 0 == ( st->state_object_round_data + 1 ) % ( MAX_ROUNDS ) );
-		boss2 = ( 0 == ( st->state_object_round_data + 1 ) % ( MAX_ROUNDS / 2 ) );
+		boss2 = ( 0 == ( st->state_object_round_data + 1 ) % 2 );
 		if( boss1 || boss2 )
 		{
 			// TODO uncomment this line to integrate boss fights.
