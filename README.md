@@ -1,3 +1,7 @@
+E:\GitHub\StevePro7\CandyKidSMS_Update
+E:\GitHub\SteveProXNA\CandyKidSMS
+
+
 # Candy Kid
 Candy Kid game for the SMS Power! 2020 Competition.
 
