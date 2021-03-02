@@ -106,7 +106,8 @@ void screen_boss_screen_update( unsigned char *screen_type )
 		if( check )
 		{
 			engine_board_manager_midd_text();
-			*screen_type = screen_type_over;
+			//*screen_type = screen_type_over;
+			*screen_type = screen_type_pass;
 			return;
 		}
 	}
