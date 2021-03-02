@@ -1,3 +1,7 @@
+extern const unsigned char	bank13_txt[];
+#define				bank13_txt_size 6
+#define				bank13_txt_bank 13
+
 extern const unsigned char	boss64_03__palette__bin[];
 #define				boss64_03__palette__bin_size 16
 #define				boss64_03__palette__bin_bank 13
