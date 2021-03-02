@@ -76,7 +76,7 @@ void engine_boss_manager_setup( unsigned char round )
 
 	// Randomize the first boss.
 	enemy = rand() % MAX_ENEMIES;
-	enemy = 1;	// todo delete
+	//enemy = 2;	// todo delete
 
 	boss_index[ 0 ] = enemy;
 	boss_one = enemy;
@@ -98,8 +98,8 @@ void engine_boss_manager_setup( unsigned char round )
 		// Randomize the second boss.
 		while( 1 )
 		{
-			//enemy = rand() % MAX_ENEMIES;
-			enemy = 0;		// todo delete
+			enemy = rand() % MAX_ENEMIES;
+			//enemy = 1;		// todo delete
 
 			if( boss_one != enemy )
 			{

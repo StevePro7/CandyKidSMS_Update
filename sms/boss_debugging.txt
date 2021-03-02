@@ -10,8 +10,8 @@ eo->tileY	10
 
 minX = go->tileX + 1 - st->state_object_fight_type;	3 + 1 - 2	2
 minY = go->tileY + 1 - st->state_object_fight_type;	3 + 1 - 2	2
-maxX = eo->tileX + 1 - st->state_object_fight_type;	10+ 1 - 2	9
-maxY = eo->tileY + 0 - st->state_object_fight_type;	10+ 0 - 2	8
+//maxX = eo->tileX + 1 - st->state_object_fight_type;	10+ 1 - 2	9
+//maxY = eo->tileY + 0 - st->state_object_fight_type;	10+ 0 - 2	8
 
 distX = maxX - minX + 1;	9 - 2 + 1	8
 distY = maxY - minY + 1;	8 - 2 + 1	7
@@ -31,13 +31,13 @@ eo->tileY	10
 
 minX = go->tileX + 1 - st->state_object_fight_type;	3 + 1 - 1	3
 minY = go->tileY + 1 - st->state_object_fight_type;	3 + 1 - 1	3
-maxX = eo->tileX + 1 - st->state_object_fight_type;	10+ 1 - 1	10
-maxY = eo->tileY + 0 - st->state_object_fight_type;	10+ 0 - 1	9
+//maxX = eo->tileX + 1 - st->state_object_fight_type;	10+ 1 - 1	10
+//maxY = eo->tileY + 0 - st->state_object_fight_type;	10+ 0 - 1	9
 
 distX = maxX - minX + 1;	10 - 3 + 1	8
 distY = maxY - minY + 1;	9  - 3 + 1	7
 
 
 
-tileX = 7
+tileX = 7	if tileX == 0 then tileX == 1
 tileY = 5
