@@ -20,9 +20,9 @@ S:Lboss_screen.screen_boss_screen_update$input$1$64({1}SC:U),R,0,0,[c]
 S:Lboss_screen.screen_boss_screen_update$bossX$1$64({1}SC:U),R,0,0,[c]
 S:Lboss_screen.screen_boss_screen_update$check$1$64({1}SC:U),R,0,0,[l]
 S:Lboss_screen.screen_boss_screen_update$frame$1$64({2}SI:U),R,0,0,[]
-S:Lboss_screen.screen_boss_screen_update$sloc0$1$0({1}SC:U),B,1,-2
-S:Lboss_screen.screen_boss_screen_update$sloc1$1$0({2}DG,SC:U),B,1,-9
-S:Lboss_screen.screen_boss_screen_update$sloc2$1$0({1}SC:U),B,1,-1
+S:Lboss_screen.screen_boss_screen_update$sloc0$1$0({1}SC:U),B,1,-9
+S:Lboss_screen.screen_boss_screen_update$sloc1$1$0({2}DG,SC:U),B,1,-2
+S:Lboss_screen.screen_boss_screen_update$sloc2$1$0({1}SC:U),B,1,-8
 S:Lboss_screen.screen_boss_screen_update$sloc3$1$0({1}SC:U),B,1,-3
 S:Lboss_screen.screen_boss_screen_update$sloc4$1$0({2}DG,SC:U),B,1,-5
 S:Lboss_screen.screen_boss_screen_update$sloc5$1$0({2}DG,SC:U),B,1,-7

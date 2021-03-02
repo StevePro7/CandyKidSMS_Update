@@ -13,8 +13,8 @@ S:Lboard_manager.engine_board_manager_toggle$st$1$59({2}DG,STtag_struct_state_ob
 S:Lboard_manager.engine_board_manager_toggle$index$1$59({1}SC:U),R,0,0,[e]
 S:Lboard_manager.engine_board_manager_toggle$x$1$59({1}SC:U),B,1,-4
 S:Lboard_manager.engine_board_manager_toggle$y$1$59({1}SC:U),R,0,0,[d]
-S:Lboard_manager.engine_board_manager_toggle$sloc0$1$0({2}DG,SC:U),B,1,-2
-S:Lboard_manager.engine_board_manager_toggle$sloc1$1$0({1}SC:U),B,1,-3
+S:Lboard_manager.engine_board_manager_toggle$sloc0$1$0({2}DG,SC:U),B,1,-3
+S:Lboard_manager.engine_board_manager_toggle$sloc1$1$0({1}SC:U),B,1,-1
 F:G$engine_board_manager_side_tile$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$engine_board_manager_midd_text$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lboard_manager.engine_board_manager_midd_text$st$1$65({2}DG,STtag_struct_state_object:S),R,0,0,[]

@@ -9,7 +9,6 @@ S:G$mus_game01_psg$0$0({0}DA0d,SC:U),D,0,0
 S:G$mus_game02_psg$0$0({0}DA0d,SC:U),D,0,0
 S:G$mus_game03_psg$0$0({0}DA0d,SC:U),D,0,0
 S:G$mus_candykid_psg$0$0({0}DA0d,SC:U),D,0,0
-S:G$bank11_txt$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss32_00__palette__bin$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss32_00__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss32_01__palette__bin$0$0({0}DA0d,SC:U),D,0,0
@@ -17,7 +16,6 @@ S:G$boss32_01__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss32_02__palette__bin$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss32_02__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$mus_boss01_psg$0$0({0}DA0d,SC:U),D,0,0
-S:G$bank12_txt$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_00__palette__bin$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_00__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_01__palette__bin$0$0({0}DA0d,SC:U),D,0,0
@@ -25,7 +23,6 @@ S:G$boss64_01__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_02__palette__bin$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_02__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$mus_boss02_psg$0$0({0}DA0d,SC:U),D,0,0
-S:G$bank13_txt$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_03__palette__bin$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_03__tiles__psgcompr$0$0({0}DA0d,SC:U),D,0,0
 S:G$boss64_04__palette__bin$0$0({0}DA0d,SC:U),D,0,0
