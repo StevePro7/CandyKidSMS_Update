@@ -15566,7 +15566,7 @@ _CODE                               00000200    000079F0 =       31216. bytes (R
      00004DFB  A$begin_screen$171                 begin_screen
      00004DFE  A$begin_screen$172                 begin_screen
      00004DFF  A$begin_screen$176                 begin_screen
-     00004DFF  C$begin_screen.c$54$1$74           begin_screen
+     00004DFF  C$begin_screen.c$55$1$74           begin_screen
      00004E00  A$begin_screen$177                 begin_screen
      00004E01  A$begin_screen$178                 begin_screen
      00004E02  A$begin_screen$179                 begin_screen
@@ -15676,7 +15676,7 @@ _CODE                               00000200    000079F0 =       31216. bytes (R
      00004E76  C$title_screen.c$53$1$62           title_screen
      00004E79  A$title_screen$193                 title_screen
      00004E7B  A$title_screen$197                 title_screen
-     00004E7B  C$title_screen.c$56$1$62           title_screen
+     00004E7B  C$title_screen.c$57$1$62           title_screen
      00004E7E  A$title_screen$198                 title_screen
      00004E80  A$title_screen$203                 title_screen
      00004E80  C$title_screen.c$58$1$62           title_screen

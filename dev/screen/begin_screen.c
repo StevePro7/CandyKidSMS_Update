@@ -51,6 +51,6 @@ void screen_begin_screen_load()
 void screen_begin_screen_update( unsigned char *screen_type )
 {
 	engine_option_manager_draw_actor( distance );
-	*screen_type = screen_type_begin;
-	//*screen_type = screen_type_title;
+	//*screen_type = screen_type_begin;
+	*screen_type = screen_type_title;
 }
