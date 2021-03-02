@@ -3,10 +3,10 @@ F:G$engine_board_manager_border$0$0({2}DF,SV:S),Z,0,2,0,0,0
 S:Lboard_manager.engine_board_manager_border$index$1$49({1}SC:U),B,1,4
 S:Lboard_manager.engine_board_manager_border$st$1$50({2}DG,STtag_struct_state_object:S),R,0,0,[]
 S:Lboard_manager.engine_board_manager_border$type$1$50({1}SC:U),R,0,0,[b]
-S:Lboard_manager.engine_board_manager_border$wide$1$50({1}SC:U),B,1,-2
+S:Lboard_manager.engine_board_manager_border$wide$1$50({1}SC:U),B,1,-1
 S:Lboard_manager.engine_board_manager_border$rght$1$50({1}SC:U),R,0,0,[c]
 S:Lboard_manager.engine_board_manager_border$left$1$50({1}SC:U),R,0,0,[c]
-S:Lboard_manager.engine_board_manager_border$midd$1$50({1}SC:U),B,1,-1
+S:Lboard_manager.engine_board_manager_border$midd$1$50({1}SC:U),B,1,-2
 S:Lboard_manager.engine_board_manager_border$loop$1$50({1}SC:U),R,0,0,[e]
 F:G$engine_board_manager_toggle$0$0({2}DF,SV:S),Z,0,1,0,0,0
 S:Lboard_manager.engine_board_manager_toggle$st$1$59({2}DG,STtag_struct_state_object:S),R,0,0,[c,b]

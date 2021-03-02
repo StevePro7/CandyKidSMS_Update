@@ -53,8 +53,8 @@ S:Ltile_manager.engine_tile_manager_main_title$pnt$1$94({2}DG,SI:U),R,0,0,[e,d]
 S:Ltile_manager.engine_tile_manager_main_title$i$1$94({1}SC:U),B,1,-6
 S:Ltile_manager.engine_tile_manager_main_title$j$1$94({1}SC:U),B,1,-5
 S:Ltile_manager.engine_tile_manager_main_title$sloc0$1$0({1}SC:U),B,1,-1
-S:Ltile_manager.engine_tile_manager_main_title$sloc1$1$0({1}SC:U),B,1,-2
-S:Ltile_manager.engine_tile_manager_main_title$sloc2$1$0({2}SI:S),B,1,-4
+S:Ltile_manager.engine_tile_manager_main_title$sloc1$1$0({1}SC:U),B,1,-4
+S:Ltile_manager.engine_tile_manager_main_title$sloc2$1$0({2}SI:S),B,1,-3
 F:G$engine_tile_manager_main_candy$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Ltile_manager.engine_tile_manager_main_candy$x$1$99({1}SC:U),B,1,4
 S:Ltile_manager.engine_tile_manager_main_candy$y$1$99({1}SC:U),B,1,5
