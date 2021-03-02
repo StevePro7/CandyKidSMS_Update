@@ -8800,7 +8800,7 @@ L:XG$screen_begin_screen_load$0$0:4DF1
 L:C$begin_screen.c$51$1$72:4DF4
 L:C$begin_screen.c$53$1$74:4DF4
 L:G$screen_begin_screen_update$0$0:4DF4
-L:C$begin_screen.c$54$1$74:4DFF
+L:C$begin_screen.c$55$1$74:4DFF
 L:C$begin_screen.c$56$1$74:4E05
 L:XG$screen_begin_screen_update$0$0:4E05
 L:C$title_screen.c$25$0$0:4E06

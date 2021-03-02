@@ -20,8 +20,8 @@ S:Lsprite_manager.engine_sprite_manager_draw_boss2$row$1$26({1}SC:U),R,0,0,[c]
 S:Lsprite_manager.engine_sprite_manager_draw_boss2$col$1$26({1}SC:U),R,0,0,[b]
 S:Lsprite_manager.engine_sprite_manager_draw_boss2$top$1$26({1}SC:U),B,1,-5
 S:Lsprite_manager.engine_sprite_manager_draw_boss2$lft$1$26({1}SC:U),B,1,-4
-S:Lsprite_manager.engine_sprite_manager_draw_boss2$sloc0$1$0({1}SC:U),B,1,-3
-S:Lsprite_manager.engine_sprite_manager_draw_boss2$sloc1$1$0({2}SI:S),B,1,-2
+S:Lsprite_manager.engine_sprite_manager_draw_boss2$sloc0$1$0({1}SC:U),B,1,-1
+S:Lsprite_manager.engine_sprite_manager_draw_boss2$sloc1$1$0({2}SI:S),B,1,-3
 S:G$devkit_SMS_init$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOn$0$0({2}DF,SV:S),C,0,0
 S:G$devkit_SMS_displayOff$0$0({2}DF,SV:S),C,0,0

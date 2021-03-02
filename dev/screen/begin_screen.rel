@@ -67,11 +67,11 @@ S C$begin_screen.c$37$1$72 Def0034
 S C$begin_screen.c$28$1$72 Def0019
 S A$begin_screen$178 Def0055
 S A$begin_screen$169 Def004C
-S C$begin_screen.c$54$1$74 Def0053
 S C$begin_screen.c$47$1$72 Def0042
 S C$begin_screen.c$38$1$72 Def003C
 S C$begin_screen.c$29$1$72 Def001C
 S A$begin_screen$179 Def0056
+S C$begin_screen.c$55$1$74 Def0053
 S C$begin_screen.c$48$1$72 Def0045
 S C$begin_screen.c$56$1$74 Def0059
 S C$begin_screen.c$49$1$72 Def0045
@@ -123,5 +123,5 @@ T 48 00
 R 00 00 00 00
 T 48 00 21 00 00 4E 06 00 C5 CD 00 00 F1 C1 E1 E5
 R 00 00 00 00 00 03 01 00 02 0A 03 00
-T 56 00 C5 36 02 C9
+T 56 00 C5 36 04 C9
 R 00 00 00 00

@@ -51,9 +51,9 @@ void screen_start_screen_load()
 	event_stage = event_stage_start;
 
 	st->state_object_next_screen = screen_type_init;
-	//st->state_object_curr_screen = screen_type_init;
+	st->state_object_curr_screen = screen_type_init;
 	//st->state_object_curr_screen = screen_type_option;
-	st->state_object_curr_screen = screen_type_start;
+	//st->state_object_curr_screen = screen_type_start;			// STEVEPRO uncomment this one
 }
 
 void screen_start_screen_update( unsigned char *screen_type )
