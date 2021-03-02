@@ -1,7 +1,3 @@
-extern const unsigned char	bank12_txt[];
-#define				bank12_txt_size 6
-#define				bank12_txt_bank 12
-
 extern const unsigned char	boss64_00__palette__bin[];
 #define				boss64_00__palette__bin_size 16
 #define				boss64_00__palette__bin_bank 12
