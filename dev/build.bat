@@ -24,7 +24,7 @@ cd engine
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 actor_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 audio_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 board_manager.c
-::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 boss_manager.c
+sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 boss_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 collision_manager.c
 ::::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 command_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 content_manager.c
@@ -34,7 +34,7 @@ cd engine
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 function_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 gamer_manager.c
 ::::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 global_manager.c
-::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 hack_manager.c
+sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 hack_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 input_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 level_manager.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 locale_manager.c
@@ -71,11 +71,11 @@ cd ..
 cd screen
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 none_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 splash_screen.c
-sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 begin_screen.c
+::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 begin_screen.c
 ::::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 intro_screen.c
-sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 title_screen.c
-sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 start_screen.c
-sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 init_screen.c
+::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 title_screen.c
+:::;sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 start_screen.c
+::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 init_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 load_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 ready_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 play_screen.c

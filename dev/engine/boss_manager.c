@@ -76,7 +76,7 @@ void engine_boss_manager_setup( unsigned char round )
 
 	// Randomize the first boss.
 	enemy = rand() % MAX_ENEMIES;
-	//enemy = 1;	// todo delete
+	enemy = 1;	// todo delete
 
 	boss_index[ 0 ] = enemy;
 	boss_one = enemy;
@@ -98,8 +98,8 @@ void engine_boss_manager_setup( unsigned char round )
 		// Randomize the second boss.
 		while( 1 )
 		{
-			enemy = rand() % MAX_ENEMIES;
-			//enemy = 1;		// todo delete
+			//enemy = rand() % MAX_ENEMIES;
+			enemy = 0;		// todo delete
 
 			if( boss_one != enemy )
 			{
@@ -136,7 +136,7 @@ void engine_boss_manager_load()
 	unsigned char index;
 
 	unsigned char minX, minY;
-	unsigned char maxX, maxY;
+	//unsigned char maxX, maxY;
 	unsigned char distX, distY;
 	unsigned char tileX, tileY, tileZ;
 
@@ -144,10 +144,24 @@ void engine_boss_manager_load()
 	eo = &global_enemy_objects[ actor_type_pro ];
 	minX = go->tileX + 1 - st->state_object_fight_type;
 	minY = go->tileY + 1 - st->state_object_fight_type;
-	maxX = eo->tileX + 1 - st->state_object_fight_type;
-	maxY = eo->tileY + 0 - st->state_object_fight_type;
-	distX = maxX - minX + 1;
-	distY = maxY - minY + 1;
+	//maxX = eo->tileX + 1 - st->state_object_fight_type;
+	//maxY = eo->tileY + 0 - st->state_object_fight_type;
+
+	//engine_font_manager_draw_data( minX, 25, 2 );
+	//engine_font_manager_draw_data( minY, 25, 3 );
+	//engine_font_manager_draw_data( maxX, 25, 4 );
+	//engine_font_manager_draw_data( maxY, 25, 5 );
+
+	distX = 10;	// maxX - minX + 1;
+	distY = 7;	// maxY - minY + 1;
+	if( fight_type_boss1 == st->state_object_fight_type )
+	{
+		distX = 7;
+		distY = 5;
+	}
+
+	//engine_font_manager_draw_data( distX, 25, 6 );
+	//engine_font_manager_draw_data( distY, 25, 7 );
 
 	devkit_SMS_mapROMBank( FIXED_BANK );
 	for( bossX = 0; bossX < MAX_BOSSES; bossX++ )
@@ -257,6 +271,14 @@ void engine_boss_manager_load()
 		{
 			tileX = rand() % distX;
 			tileY = rand() % distY;
+
+			// Edge case for big boss!
+			if( 0 == tileX && fight_type_boss1 == st->state_object_fight_type )
+			{
+				tileX = 1;
+			}
+			//tileX = 7;
+			//tileY = 5;
 
 			tileX += minX;
 			tileY += minY;
