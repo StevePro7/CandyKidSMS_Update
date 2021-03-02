@@ -15936,7 +15936,7 @@ _CODE                               00000200    000079F0 =       31216. bytes (R
      00004FA0  C$start_screen.c$53$1$87           start_screen
      00004FA3  A$start_screen$169                 start_screen
      00004FA5  A$start_screen$173                 start_screen
-     00004FA5  C$start_screen.c$56$1$87           start_screen
+     00004FA5  C$start_screen.c$54$1$87           start_screen
      00004FA8  A$start_screen$174                 start_screen
      00004FAA  A$start_screen$179                 start_screen
      00004FAA  C$start_screen.c$57$1$87           start_screen
