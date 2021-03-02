@@ -73,8 +73,8 @@ cd screen
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 splash_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 begin_screen.c
 ::::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 intro_screen.c
-::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 title_screen.c
-:::;sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 start_screen.c
+sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 title_screen.c
+sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 start_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 init_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 load_screen.c
 ::sdcc --debug -c -mz80 --opt-code-size --peep-file ..\peep-rules.txt --std-c99 ready_screen.c

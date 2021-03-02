@@ -76,7 +76,7 @@ void engine_boss_manager_setup( unsigned char round )
 
 	// Randomize the first boss.
 	enemy = rand() % MAX_ENEMIES;
-	//enemy = 2;	// todo delete
+	//enemy = 1;	// todo delete
 
 	boss_index[ 0 ] = enemy;
 	boss_one = enemy;
@@ -147,11 +147,6 @@ void engine_boss_manager_load()
 	//maxX = eo->tileX + 1 - st->state_object_fight_type;
 	//maxY = eo->tileY + 0 - st->state_object_fight_type;
 
-	//engine_font_manager_draw_data( minX, 25, 2 );
-	//engine_font_manager_draw_data( minY, 25, 3 );
-	//engine_font_manager_draw_data( maxX, 25, 4 );
-	//engine_font_manager_draw_data( maxY, 25, 5 );
-
 	distX = 10;	// maxX - minX + 1;
 	distY = 7;	// maxY - minY + 1;
 	if( fight_type_boss1 == st->state_object_fight_type )
@@ -159,9 +154,6 @@ void engine_boss_manager_load()
 		distX = 7;
 		distY = 5;
 	}
-
-	//engine_font_manager_draw_data( distX, 25, 6 );
-	//engine_font_manager_draw_data( distY, 25, 7 );
 
 	devkit_SMS_mapROMBank( FIXED_BANK );
 	for( bossX = 0; bossX < MAX_BOSSES; bossX++ )
