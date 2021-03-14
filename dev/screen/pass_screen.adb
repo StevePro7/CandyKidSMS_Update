@@ -7,7 +7,7 @@ F:G$screen_pass_screen_update$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lpass_screen.screen_pass_screen_update$screen_type$1$62({2}DG,SC:U),B,1,4
 S:Lpass_screen.screen_pass_screen_update$st$1$63({2}DG,STtag_struct_state_object:S),R,0,0,[]
 S:Lpass_screen.screen_pass_screen_update$delay$1$63({1}SC:U),R,0,0,[l]
-S:Lpass_screen.screen_pass_screen_update$input$1$63({1}SC:U),R,0,0,[c]
+S:Lpass_screen.screen_pass_screen_update$input$1$63({1}SC:U),R,0,0,[]
 S:Lpass_screen.screen_pass_screen_update$sloc0$1$0({2}DG,SC:U),B,1,-2
 F:Fpass_screen$draw_actor$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lpass_screen.draw_actor$st$1$72({2}DG,STtag_struct_state_object:S),R,0,0,[]
@@ -78,7 +78,6 @@ S:G$engine_enemy_manager_reset_mode$0$0({2}DF,SV:S),C,0,0
 S:G$engine_enemy_manager_frame$0$0({2}DF,SV:S),C,0,0
 S:G$engine_enemy_manager_image$0$0({2}DF,SV:S),C,0,0
 S:G$engine_enemy_manager_images$0$0({2}DF,SV:S),C,0,0
-S:G$engine_enemy_manager_debug$0$0({2}DF,SV:S),C,0,0
 S:G$engine_enemy_manager_scatter_direction$0$0({2}DF,SC:U),C,0,0
 S:G$engine_enemy_manager_gohome_direction$0$0({2}DF,SC:U),C,0,0
 S:G$engine_enemy_manager_attack_direction$0$0({2}DF,SC:U),C,0,0

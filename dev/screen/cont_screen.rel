@@ -29,29 +29,30 @@ S A$cont_screen$299 Def00EF
 S C$cont_screen.c$64$3$84 Def0091
 S C$cont_screen.c$59$2$81 Def0087
 S C$cont_screen.c$56$3$83 Def0084
-S C$cont_screen.c$98$1$80 Def0068
+S C$cont_screen.c$90$4$85 Def00D3
 S C$cont_screen.c$37$1$78 Def0017
+S C$cont_screen.c$91$4$85 Def00D6
 S C$cont_screen.c$38$1$78 Def001A
+S C$cont_screen.c$83$4$85 Def00BC
 S C$cont_screen.c$72$5$86 Def00A2
 S C$cont_screen.c$39$1$78 Def001F
-S C$cont_screen.c$93$4$85 Def00CD
+S C$cont_screen.c$93$4$85 Def00D9
 S C$cont_screen.c$66$4$85 Def0097
 S G$screen_cont_screen_load$0$0 Def0000
 S A$cont_screen$81 Def0000
-S C$cont_screen.c$94$4$85 Def00D0
+S C$cont_screen.c$98$4$90 Def00F9
+S C$cont_screen.c$94$4$85 Def00F6
 S A$cont_screen$91 Def000A
-S C$cont_screen.c$95$4$85 Def00D3
-S C$cont_screen.c$90$5$89 Def00CA
+S C$cont_screen.c$99$4$90 Def0101
 S A$cont_screen$92 Def000D
-S C$cont_screen.c$96$4$85 Def00D6
 S C$cont_screen.c$74$6$87 Def00B3
 S A$cont_screen$93 Def000E
-S C$cont_screen.c$88$4$85 Def00BC
+S C$cont_screen.c$88$4$85 Def00CD
 S A$cont_screen$94 Def0011
 S A$cont_screen$85 Def0003
-S C$cont_screen.c$98$4$85 Def00D9
+S C$cont_screen.c$89$4$85 Def00D0
 S A$cont_screen$86 Def0006
-S C$cont_screen.c$99$4$85 Def00F6
+S C$cont_screen.c$85$5$89 Def00CA
 S A$cont_screen$87 Def0007
 S Fcont_screen$__str_0$0$0 Def01B5
 S Fcont_screen$__str_1$0$0 Def01B7
@@ -60,35 +61,36 @@ S A$cont_screen$99 Def0015
 S _screen_cont_screen_load Def0000
 S Fcont_screen$display_cursor$0$0 Def0182
 S XG$screen_cont_screen_load$0$0 Def001F
-S C$cont_screen.c$110$3$91 Def010C
-S C$cont_screen.c$124$1$80 Def011A
-S C$cont_screen.c$115$1$80 Def010E
+S C$cont_screen.c$110$1$80 Def010E
+S C$cont_screen.c$130$1$80 Def016B
+S C$cont_screen.c$121$1$80 Def011D
+S C$cont_screen.c$122$1$80 Def012D
+S C$cont_screen.c$123$1$80 Def013D
 S G$screen_cont_screen_update$0$0 Def0020
-S C$cont_screen.c$143$1$80 Def0175
-S C$cont_screen.c$134$1$80 Def015B
-S C$cont_screen.c$103$4$90 Def00F9
-S C$cont_screen.c$144$1$80 Def0181
-S C$cont_screen.c$135$1$80 Def016B
-S C$cont_screen.c$126$1$80 Def011D
-S C$cont_screen.c$121$2$93 Def0117
-S C$cont_screen.c$104$4$90 Def0101
-S C$cont_screen.c$130$2$94 Def0151
-S C$cont_screen.c$127$1$80 Def012D
-S C$cont_screen.c$146$1$80 Def0182
-S C$cont_screen.c$131$2$94 Def0158
-S C$cont_screen.c$128$1$80 Def013D
-S C$cont_screen.c$140$2$95 Def0173
-S C$cont_screen.c$150$1$96 Def019B
-S C$cont_screen.c$117$2$92 Def0112
-S C$cont_screen.c$151$1$96 Def01B4
-S C$cont_screen.c$109$3$91 Def0104
+S C$cont_screen.c$112$2$92 Def0112
+S C$cont_screen.c$104$3$91 Def0104
+S C$cont_screen.c$136$1$80 Def0175
+S C$cont_screen.c$105$3$91 Def010C
+S C$cont_screen.c$137$1$80 Def0181
+S C$cont_screen.c$119$1$80 Def011A
+S C$cont_screen.c$129$1$80 Def015B
+S C$cont_screen.c$141$1$96 Def0182
+S C$cont_screen.c$139$1$80 Def0182
+S C$cont_screen.c$132$2$95 Def016E
+S C$cont_screen.c$116$2$93 Def0117
+S C$cont_screen.c$142$1$96 Def018E
+S C$cont_screen.c$133$2$95 Def0173
+S C$cont_screen.c$125$2$94 Def0151
 S A$cont_screen$300 Def00F2
 S A$cont_screen$210 Def0095
+S C$cont_screen.c$143$1$96 Def019B
+S C$cont_screen.c$126$2$94 Def0158
 S A$cont_screen$310 Def00F9
 S A$cont_screen$301 Def00F5
 S A$cont_screen$202 Def008D
 S A$cont_screen$103 Def0017
 S XFcont_screen$display_cursor$0$0 Def01B4
+S C$cont_screen.c$144$1$96 Def01B4
 S A$cont_screen$410 Def0167
 S A$cont_screen$311 Def00FC
 S A$cont_screen$203 Def008E
@@ -132,8 +134,6 @@ S A$cont_screen$143 Def0041
 S A$cont_screen$134 Def002B
 S A$cont_screen$125 Def0026
 S A$cont_screen$107 Def001A
-S C$cont_screen.c$148$1$96 Def0182
-S C$cont_screen.c$139$2$95 Def016E
 S A$cont_screen$432 Def017B
 S A$cont_screen$405 Def015E
 S A$cont_screen$360 Def0129
@@ -147,7 +147,6 @@ S A$cont_screen$144 Def0044
 S A$cont_screen$135 Def002C
 S A$cont_screen$126 Def0027
 S A$cont_screen$108 Def001D
-S C$cont_screen.c$149$1$96 Def018E
 S C$cont_screen.c$50$1$80 Def0064
 S A$cont_screen$415 Def016B
 S A$cont_screen$406 Def015F
@@ -272,6 +271,7 @@ S A$cont_screen$277 Def00D0
 S A$cont_screen$268 Def00CA
 S A$cont_screen$259 Def00BF
 S A$cont_screen$178 Def007C
+S C$cont_screen.c$93$1$80 Def0068
 S C$cont_screen.c$41$1$78 Def0020
 S C$cont_screen.c$32$1$78 Def0000
 S A$cont_screen$485 Def01B2
@@ -336,17 +336,17 @@ T 20 00
 R 00 00 00 00
 T 20 00 CD 00 00 21 F4 FF 39 F9 21 00 00 39 DD 75
 R 00 00 00 00 02 03 11 00
-T 2E 00 FB DD 74 FC 36 00 DD 7E FB C6 01 DD 77 F7
+T 2E 00 FE DD 74 FF 36 00 DD 7E FE C6 01 DD 77 FB
 R 00 00 00 00
-T 3C 00 DD 7E FC CE 00 DD 77 F8 DD 6E F7 DD 66 F8
+T 3C 00 DD 7E FF CE 00 DD 77 FC DD 6E FB DD 66 FC
 R 00 00 00 00
-T 4A 00 36 00 DD 7E FB C6 02 DD 77 F9 DD 7E FC CE
+T 4A 00 36 00 DD 7E FE C6 02 DD 77 F9 DD 7E FF CE
 R 00 00 00 00
 T 58 00 00 DD 77 FA DD 6E F9 DD 66 FA 36 00 21
 R 00 00 00 00
-T 65 00 0B 00 4E DD 7E 04 DD 77 FE DD 7E 05 DD 77
+T 65 00 0B 00 4E DD 7E 04 DD 77 F7 DD 7E 05 DD 77
 R 00 00 00 00 02 02 0E 00
-T 73 00 FF 3A 00 00 3D C2 0E 01 79 B7 20 05 CD
+T 73 00 F8 3A 00 00 3D C2 0E 01 79 B7 20 05 CD
 R 00 00 00 00 00 04 01 00 00 08 00 00
 T 80 00 00 00 18 03
 R 00 00 00 00 02 02 00 00
@@ -388,15 +388,15 @@ T E8 00 DD 36 FD 0F
 R 00 00 00 00
 T EC 00
 R 00 00 00 00
-T EC 00 DD 6E FE DD 66 FF DD 7E FD 77 C3 7D 01
+T EC 00 DD 6E F7 DD 66 F8 DD 7E FD 77 C3 7D 01
 R 00 00 00 00 00 0D 00 00
 T F9 00
 R 00 00 00 00
-T F9 00 DD 6E FE DD 66 FF 36 0D C3 7D 01
+T F9 00 DD 6E F7 DD 66 F8 36 0D C3 7D 01
 R 00 00 00 00 00 0B 00 00
 T 04 01
 R 00 00 00 00
-T 04 01 DD 6E FE DD 66 FF 36 0C 18 6F
+T 04 01 DD 6E F7 DD 66 F8 36 0C 18 6F
 R 00 00 00 00
 T 0E 01
 R 00 00 00 00
@@ -410,11 +410,11 @@ T 1A 01
 R 00 00 00 00
 T 1A 01 CD 00 00 3E 04 F5 33 CD 00 00 33 4D DD 6E
 R 00 00 00 00 02 03 05 00 02 0A 0C 00
-T 28 01 FB DD 66 FC 71 3E 08 F5 33 CD 00 00 33 4D
+T 28 01 FE DD 66 FF 71 3E 08 F5 33 CD 00 00 33 4D
 R 00 00 00 00 02 0C 0C 00
-T 36 01 DD 6E F7 DD 66 F8 71 DD 6E FB DD 66 FC 7E
+T 36 01 DD 6E FB DD 66 FC 71 DD 6E FE DD 66 FF 7E
 R 00 00 00 00
-T 44 01 B7 20 0A DD 6E F7 DD 66 F8 7E B7 28 0A
+T 44 01 B7 20 0A DD 6E FB DD 66 FC 7E B7 28 0A
 R 00 00 00 00
 T 51 01
 R 00 00 00 00
@@ -428,7 +428,7 @@ T 69 01 FA 77 B7 28 07 21 00 00 36 01 18 08
 R 00 00 00 00 00 08 01 00
 T 75 01
 R 00 00 00 00
-T 75 01 DD 6E FE DD 66 FF 36 0C
+T 75 01 DD 6E F7 DD 66 F8 36 0C
 R 00 00 00 00
 T 7D 01
 R 00 00 00 00
