@@ -3,8 +3,8 @@ F:G$screen_splash_screen_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
 F:G$screen_splash_screen_update$0$0({2}DF,SV:S),Z,0,2,0,0,0
 S:Lsplash_screen.screen_splash_screen_update$screen_type$1$28({2}DG,SC:U),B,1,4
 S:Lsplash_screen.screen_splash_screen_update$st$1$29({2}DG,STtag_struct_state_object:S),R,0,0,[]
-S:Lsplash_screen.screen_splash_screen_update$delay$1$29({1}SC:U),B,1,-2
-S:Lsplash_screen.screen_splash_screen_update$input1$1$29({1}SC:U),B,1,-1
+S:Lsplash_screen.screen_splash_screen_update$delay$1$29({1}SC:U),B,1,-1
+S:Lsplash_screen.screen_splash_screen_update$input1$1$29({1}SC:U),B,1,-2
 S:Lsplash_screen.screen_splash_screen_update$input2$1$29({1}SC:U),R,0,0,[l]
 S:Lsplash_screen.screen_splash_screen_update$check$1$29({1}SC:U),R,0,0,[l]
 T:Fsplash_screen$tag_struct_storage_object[({0}S:S$Magic$0$0({4}SL:U),Z,0,0)({4}S:S$save_high_score$0$0({4}SL:U),Z,0,0)({8}S:S$save_trees_type$0$0({1}SC:U),Z,0,0)({9}S:S$save_exits_type$0$0({1}SC:U),Z,0,0)({10}S:S$save_difficulty$0$0({1}SC:U),Z,0,0)({11}S:S$save_game_speed$0$0({1}SC:U),Z,0,0)({12}S:S$save_world_data$0$0({1}SC:U),Z,0,0)({13}S:S$save_round_data$0$0({1}SC:U),Z,0,0)({14}S:S$save_image_kid$0$0({1}SC:U),Z,0,0)({15}S:S$save_image_pro$0$0({1}SC:U),Z,0,0)({16}S:S$save_image_adi$0$0({1}SC:U),Z,0,0)({17}S:S$save_image_suz$0$0({1}SC:U),Z,0,0)({18}S:S$terminal$0$0({1}SC:U),Z,0,0)]

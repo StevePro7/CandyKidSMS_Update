@@ -12,9 +12,9 @@ S:Loption_screen.screen_option_screen_update$ho$1$87({2}DG,STtag_struct_hack_obj
 S:Loption_screen.screen_option_screen_update$input$1$87({2}DA2d,SC:U),B,1,-8
 S:Loption_screen.screen_option_screen_update$delay$1$87({1}SC:U),R,0,0,[l]
 S:Loption_screen.screen_option_screen_update$skip$1$87({1}SC:U),R,0,0,[c]
-S:Loption_screen.screen_option_screen_update$sloc0$1$0({2}DD,SC:U),B,1,-4
-S:Loption_screen.screen_option_screen_update$sloc1$1$0({2}DD,SC:U),B,1,-6
-S:Loption_screen.screen_option_screen_update$sloc2$1$0({2}DG,SC:U),B,1,-2
+S:Loption_screen.screen_option_screen_update$sloc0$1$0({2}DD,SC:U),B,1,-2
+S:Loption_screen.screen_option_screen_update$sloc1$1$0({2}DD,SC:U),B,1,-4
+S:Loption_screen.screen_option_screen_update$sloc2$1$0({2}DG,SC:U),B,1,-6
 F:Foption_screen$display_cursor$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Loption_screen.display_cursor$type$1$116({1}SC:U),B,1,4
 S:Loption_screen.display_cursor$x$1$117({1}SC:U),R,0,0,[b]
