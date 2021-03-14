@@ -72,6 +72,7 @@ void screen_boss_screen_update( unsigned char *screen_type )
 		if( check )
 		{
 			engine_board_manager_midd_text();
+			//engine_memo_manager_pass( 0 );				// stevepro
 			*screen_type = screen_type_pass;
 			return;
 		}

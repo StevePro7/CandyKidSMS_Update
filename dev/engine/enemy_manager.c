@@ -552,7 +552,7 @@ unsigned char engine_enemy_manager_input_boost( unsigned char enemy )
 		}
 	}
 
-	eo->action = 1 - eo->action;		// stevepro disable for testing.		ADRIANA
+	eo->action = 1 - eo->action;		// disable for testing.
 	eo->ticker = 0;
 	eo->dir_count = 0;
 	eo->dir_total = 0;
