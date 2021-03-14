@@ -15,10 +15,8 @@ void main (void)
 	devkit_SMS_VDPturnOnFeature( devkit_VDPFEATURE_HIDEFIRSTCOL() );
 	engine_main_manager_init();
 
-	//open_screen_type = screen_type_splash;
-	open_screen_type = screen_type_begin;
-	//open_screen_type = screen_type_test;
-	//open_screen_type = screen_type_init;
+	open_screen_type = screen_type_splash;
+	//open_screen_type = screen_type_begin;
 
 
 	engine_screen_manager_init( open_screen_type );
