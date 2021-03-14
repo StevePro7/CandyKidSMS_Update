@@ -175,11 +175,9 @@
     <ClCompile Include="screen\begin_screen.c" />
     <ClCompile Include="screen\boss_screen.c" />
     <ClCompile Include="screen\cont_screen.c" />
-    <ClCompile Include="screen\credit_screen.c" />
     <ClCompile Include="screen\dead_screen.c" />
     <ClCompile Include="screen\fight_screen.c" />
     <ClCompile Include="screen\init_screen.c" />
-    <ClCompile Include="screen\intro_screen.c" />
     <ClCompile Include="screen\load_screen.c" />
     <ClCompile Include="screen\none_screen.c" />
     <ClCompile Include="screen\option_screen.c" />
@@ -190,7 +188,6 @@
     <ClCompile Include="screen\ready_screen.c" />
     <ClCompile Include="screen\splash_screen.c" />
     <ClCompile Include="screen\start_screen.c" />
-    <ClCompile Include="screen\test_screen.c" />
     <ClCompile Include="screen\title_screen.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
