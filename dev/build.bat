@@ -172,4 +172,5 @@ if exist "*.noi" del "*.noi" > nul; if exist "*.sym" del "*.sym" > nul; if exist
 :: Run
 ::java -jar C:\SEGA\Emulicious\Emulicious.jar output.sms
 ::C:\SEGA\meka\mekaw.exe output.sms
-C:\SEGA\Fusion\Fusion.exe output.sms
+::C:\SEGA\Fusion\Fusion.exe output.sms
+copy output.sms E:\GitHub\StevePro7\Z80test\05-Utils\BinaryFileXCompare\bin\Debug\input
