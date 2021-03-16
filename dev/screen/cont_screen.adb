@@ -5,11 +5,11 @@ S:Lcont_screen.screen_cont_screen_update$screen_type$1$79({2}DG,SC:U),B,1,4
 S:Lcont_screen.screen_cont_screen_update$st$1$80({2}DG,STtag_struct_state_object:S),R,0,0,[]
 S:Lcont_screen.screen_cont_screen_update$input$1$80({3}DA3d,SC:U),B,1,-12
 S:Lcont_screen.screen_cont_screen_update$delay$1$80({1}SC:U),R,0,0,[l]
-S:Lcont_screen.screen_cont_screen_update$sloc0$1$0({2}DD,SC:U),B,1,-2
-S:Lcont_screen.screen_cont_screen_update$sloc1$1$0({2}DD,SC:U),B,1,-5
-S:Lcont_screen.screen_cont_screen_update$sloc2$1$0({2}DD,SC:U),B,1,-7
-S:Lcont_screen.screen_cont_screen_update$sloc3$1$0({2}DG,SC:U),B,1,-9
-S:Lcont_screen.screen_cont_screen_update$sloc4$1$0({1}SC:U),B,1,-3
+S:Lcont_screen.screen_cont_screen_update$sloc0$1$0({2}DD,SC:U),B,1,-8
+S:Lcont_screen.screen_cont_screen_update$sloc1$1$0({2}DD,SC:U),B,1,-4
+S:Lcont_screen.screen_cont_screen_update$sloc2$1$0({2}DD,SC:U),B,1,-6
+S:Lcont_screen.screen_cont_screen_update$sloc3$1$0({2}DG,SC:U),B,1,-2
+S:Lcont_screen.screen_cont_screen_update$sloc4$1$0({1}SC:U),B,1,-9
 F:Fcont_screen$display_cursor$0$0({2}DF,SV:S),Z,0,0,0,0,0
 T:Fcont_screen$tag_struct_boss_object[({0}S:S$actor$0$0({1}SC:U),Z,0,0)({1}S:S$posnX$0$0({1}SC:U),Z,0,0)({2}S:S$posnY$0$0({1}SC:U),Z,0,0)({3}S:S$homeX$0$0({1}SC:U),Z,0,0)({4}S:S$homeY$0$0({1}SC:U),Z,0,0)({5}S:S$tileX$0$0({1}SC:U),Z,0,0)({6}S:S$tileY$0$0({1}SC:U),Z,0,0)({7}S:S$tileZ$0$0({1}SC:U),Z,0,0)({8}S:S$waiter$0$0({1}SC:U),Z,0,0)({9}S:S$action$0$0({1}SC:U),Z,0,0)({10}S:S$scatter$0$0({8}DA8d,SC:U),Z,0,0)({18}S:S$paths$0$0({1}SC:U),Z,0,0)({19}S:S$speed$0$0({1}SC:U),Z,0,0)({20}S:S$delay$0$0({1}SC:U),Z,0,0)({21}S:S$timer$0$0({1}SC:U),Z,0,0)({22}S:S$total$0$0({1}SC:U),Z,0,0)({23}S:S$sizer$0$0({1}SC:U),Z,0,0)({24}S:S$mover$0$0({1}SC:U),Z,0,0)({25}S:S$drawr$0$0({1}SC:U),Z,0,0)({26}S:S$wide$0$0({1}SC:U),Z,0,0)({27}S:S$high$0$0({1}SC:U),Z,0,0)({28}S:S$lifecycle$0$0({1}SC:U),Z,0,0)({29}S:S$prev_move$0$0({1}SC:U),Z,0,0)({30}S:S$direction$0$0({1}SC:U),Z,0,0)({31}S:S$image$0$0({1}SC:U),Z,0,0)]
 T:Fcont_screen$tag_struct_frame_object[({0}S:S$frame_count$0$0({2}SI:U),Z,0,0)]

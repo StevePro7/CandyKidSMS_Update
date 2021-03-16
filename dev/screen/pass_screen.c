@@ -55,7 +55,7 @@ void screen_pass_screen_update( unsigned char *screen_type )
 	if( event_stage_pause == event_stage )
 	{
 		delay = engine_delay_manager_update();
-		input = 0;
+		input = engine_input_manager_hold( input_type_fire2 );
 		if( delay || input )
 		{
 			next_level();
